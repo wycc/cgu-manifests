@@ -85,3 +85,6 @@ resources:
 # KServe
 - ../contrib/kserve/kserve
 - ../contrib/kserve/models-web-app/overlays/kubeflow
+
+# cgu
+- ../cgu
