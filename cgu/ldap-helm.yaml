@@ -211,6 +211,19 @@ data:
       by dn="cn=admin,dc=example,dc=org" write
       by self read
       by * none
+  # add default group ou
+  group.ldif: |
+    dn: ou=groups,dc=example,dc=org
+    objectClass: organizationalUnit
+    ou: groups
+  # delete default user
+  user.ldif: |
+    dn: cn=User01,ou=users,dc=example,dc=org
+    changetype: delete
+  # delete default user
+  user2.ldif: |
+    dn: cn=User02,ou=users,dc=example,dc=org
+    changetype: delete
 ---
 # Source: openldap-stack-ha/charts/ltb-passwd/templates/service.yaml
 apiVersion: v1
