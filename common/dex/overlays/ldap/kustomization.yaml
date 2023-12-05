@@ -72,5 +72,12 @@ vars:
     apiVersion: v1
   fieldref:
     fieldpath: data.application_secret
+- name: issuer
+  objref:
+    kind: ConfigMap
+    name: dex
+    apiVersion: v1
+  fieldref:
+    fieldpath: data.issuer
 configurations:
 - params.yaml

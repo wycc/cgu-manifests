@@ -91,7 +91,7 @@ data:
     oauth2:
       skipApprovalScreen: true
     staticClients:
-    - id: $(client_id)
+    - idEnv: OIDC_CLIENT_ID
       redirectURIs: $(oidc_redirect_uris)
       name: 'Dex Login Application'
       secret: $(application_secret)
