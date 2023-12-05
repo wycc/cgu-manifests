@@ -244,12 +244,13 @@ metadata:
     release: helm-ldap.yaml
     heritage: Helm
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
   - port: 80
     targetPort: http
     protocol: TCP
     name: http
+
   selector:
     app: phpldapadmin
     release: helm-ldap.yaml
