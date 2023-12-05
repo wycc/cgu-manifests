@@ -75,19 +75,19 @@ data:
             nameAttr: uid
 
           # Group search queries for groups given a user entry.
-          groupSearch:
+          #groupSearch:
             # BaseDN to start the search from. It will translate to the query
             # "(&(objectClass=group)(member=<user uid>))".
-            baseDN: $(ldap_group_base_dn)
+            # baseDN: $(ldap_group_base_dn)
             # Optional filter to apply when searching the directory.
-            filter: "(objectClass=posixGroup)"
+            #filter: "(objectClass=posixGroup)"
             # Following two fields are used to match a user to a group. It adds an additional
             # requirement to the filter that an attribute in the group must match the user's
             # attribute value.
-            userAttr: gidNumber
-            groupAttr: gidNumber
+            #userAttr: gidNumber
+            #groupAttr: gidNumber
             # Represents group name.
-            nameAttr: cn
+            #nameAttr: cn
     oauth2:
       skipApprovalScreen: true
     staticClients:
