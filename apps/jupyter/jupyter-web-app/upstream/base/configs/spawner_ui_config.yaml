@@ -127,11 +127,9 @@ spawnerFormDefaults:
   affinityConfig:
     # If readonly, the default value will be the only option
     # value is a list of `configKey`s that we want to be selected by default
-    value: "all"
+    value: ""
     # The list of available affinity configs
     options:
-      - configKey: "all"
-        displayName: "all"
       - configKey: "A5000"
         displayName: "A5000"
         affinity:
