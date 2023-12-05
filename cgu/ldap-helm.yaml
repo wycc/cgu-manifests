@@ -3,11 +3,11 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: helm-ldap.yaml-ltb-passwd
+  name: helm-ldap-ltb-passwd
   labels:
-    app: helm-ldap.yaml
-    chart: helm-ldap.yaml-4.1.2
-    release: helm-ldap.yaml
+    app: helm-ldap
+    chart: helm-ldap-4.1.2
+    release: helm-ldap
     heritage: Helm
 type: Opaque
 data:
@@ -17,11 +17,11 @@ data:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: helm-ldap.yaml
+  name: helm-ldap
   labels:
-    app: helm-ldap.yaml
-    chart: helm-ldap.yaml-4.1.2
-    release: helm-ldap.yaml
+    app: helm-ldap
+    chart: helm-ldap-4.1.2
+    release: helm-ldap
     heritage: Helm
 type: Opaque
 data:
@@ -33,11 +33,11 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: helm-ldap.yaml-ltb-passwd-ldap-cm
+  name: helm-ldap-ltb-passwd-ldap-cm
   labels:
-    app: helm-ldap.yaml-ltb
+    app: helm-ldap-ltb
     chart: ltb-passwd-0.1.0
-    release: helm-ldap.yaml
+    release: helm-ldap
     heritage: Helm
 data:
   ldap.conf: |
@@ -47,17 +47,17 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: helm-ldap.yaml-phpldapadmin
+  name: helm-ldap-phpldapadmin
   labels:
     app: phpldapadmin
     chart: phpldapadmin-0.1.2
-    release: helm-ldap.yaml
+    release: helm-ldap
     heritage: Helm
 data:
   PHPLDAPADMIN_HTTPS: "false"
   PHPLDAPADMIN_LDAP_CLIENT_TLS_REQCERT: never
   PHPLDAPADMIN_TRUST_PROXY_SSL: "true"
-  PHPLDAPADMIN_LDAP_HOSTS: "#PYTHON2BASH:[{ 'helm-ldap.yaml.default'  : [{'server': [{'tls': True},{'port':389}]},{'login': [{'bind_id': 'cn=admin,dc=example,dc=org'  }]}]}]"
+  PHPLDAPADMIN_LDAP_HOSTS: "#PYTHON2BASH:[{ 'helm-ldap.default'  : [{'server': [{'tls': True},{'port':389}]},{'login': [{'bind_id': 'cn=admin,dc=example,dc=org'  }]}]}]"
 ---
 # Source: openldap-stack-ha/templates/configmap-env.yaml
 #
@@ -69,11 +69,11 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: helm-ldap.yaml-env
+  name: helm-ldap-env
   labels:
-    app: helm-ldap.yaml
-    chart: helm-ldap.yaml-4.1.2
-    release: helm-ldap.yaml
+    app: helm-ldap
+    chart: helm-ldap-4.1.2
+    release: helm-ldap
     heritage: Helm
 data:
   LDAP_ROOT: dc=example,dc=org
@@ -98,11 +98,11 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: helm-ldap.yaml-replication-acls
+  name: helm-ldap-replication-acls
   labels:
-    app: helm-ldap.yaml
-    chart: helm-ldap.yaml-4.1.2
-    release: helm-ldap.yaml
+    app: helm-ldap
+    chart: helm-ldap-4.1.2
+    release: helm-ldap
     heritage: Helm
 data:
   # replication
@@ -117,9 +117,9 @@ data:
     dn: cn=config
     changeType: modify
     add: olcServerID
-    olcServerID: 1 ldap://helm-ldap.yaml-0.helm-ldap.yaml-headless.default.svc.cluster.local:1389
-    olcServerID: 2 ldap://helm-ldap.yaml-1.helm-ldap.yaml-headless.default.svc.cluster.local:1389
-    olcServerID: 3 ldap://helm-ldap.yaml-2.helm-ldap.yaml-headless.default.svc.cluster.local:1389
+    olcServerID: 1 ldap://helm-ldap-0.helm-ldap-headless.default.svc.cluster.local:1389
+    olcServerID: 2 ldap://helm-ldap-1.helm-ldap-headless.default.svc.cluster.local:1389
+    olcServerID: 3 ldap://helm-ldap-2.helm-ldap-headless.default.svc.cluster.local:1389
   csyncprov.ldif: |
     # Add syncprov on config
     dn: olcOverlay=syncprov,olcDatabase={0}config,cn=config
@@ -132,9 +132,9 @@ data:
     dn: olcDatabase={0}config,cn=config
     changetype: modify
     add: olcSyncRepl
-    olcSyncRepl: rid=001 provider=ldap://helm-ldap.yaml-0.helm-ldap.yaml-headless.default.svc.cluster.local:1389 binddn="cn=admin,cn=config" bindmethod=simple credentials=Not@SecurePassw0rd searchbase="cn=config" type=refreshAndPersist retry="60 +" timeout=1 starttls=critical tls_reqcert=never
-    olcSyncRepl: rid=002 provider=ldap://helm-ldap.yaml-1.helm-ldap.yaml-headless.default.svc.cluster.local:1389 binddn="cn=admin,cn=config" bindmethod=simple credentials=Not@SecurePassw0rd searchbase="cn=config" type=refreshAndPersist retry="60 +" timeout=1 starttls=critical tls_reqcert=never
-    olcSyncRepl: rid=003 provider=ldap://helm-ldap.yaml-2.helm-ldap.yaml-headless.default.svc.cluster.local:1389 binddn="cn=admin,cn=config" bindmethod=simple credentials=Not@SecurePassw0rd searchbase="cn=config" type=refreshAndPersist retry="60 +" timeout=1 starttls=critical tls_reqcert=never
+    olcSyncRepl: rid=001 provider=ldap://helm-ldap-0.helm-ldap-headless.default.svc.cluster.local:1389 binddn="cn=admin,cn=config" bindmethod=simple credentials=Not@SecurePassw0rd searchbase="cn=config" type=refreshAndPersist retry="60 +" timeout=1 starttls=critical tls_reqcert=never
+    olcSyncRepl: rid=002 provider=ldap://helm-ldap-1.helm-ldap-headless.default.svc.cluster.local:1389 binddn="cn=admin,cn=config" bindmethod=simple credentials=Not@SecurePassw0rd searchbase="cn=config" type=refreshAndPersist retry="60 +" timeout=1 starttls=critical tls_reqcert=never
+    olcSyncRepl: rid=003 provider=ldap://helm-ldap-2.helm-ldap-headless.default.svc.cluster.local:1389 binddn="cn=admin,cn=config" bindmethod=simple credentials=Not@SecurePassw0rd searchbase="cn=config" type=refreshAndPersist retry="60 +" timeout=1 starttls=critical tls_reqcert=never
     -
     add: olcMirrorMode
     olcMirrorMode: TRUE
@@ -150,7 +150,7 @@ data:
     add: olcSyncrepl
     olcSyncrepl:
       rid=101
-      provider=ldap://helm-ldap.yaml-0.helm-ldap.yaml-headless.default.svc.cluster.local:1389
+      provider=ldap://helm-ldap-0.helm-ldap-headless.default.svc.cluster.local:1389
       binddn=cn=admin,dc=example,dc=org
       bindmethod=simple
       credentials=Not@SecurePassw0rd
@@ -164,7 +164,7 @@ data:
       tls_reqcert=never
     olcSyncrepl:
       rid=102
-      provider=ldap://helm-ldap.yaml-1.helm-ldap.yaml-headless.default.svc.cluster.local:1389
+      provider=ldap://helm-ldap-1.helm-ldap-headless.default.svc.cluster.local:1389
       binddn=cn=admin,dc=example,dc=org
       bindmethod=simple
       credentials=Not@SecurePassw0rd
@@ -178,7 +178,7 @@ data:
       tls_reqcert=never
     olcSyncrepl:
       rid=103
-      provider=ldap://helm-ldap.yaml-2.helm-ldap.yaml-headless.default.svc.cluster.local:1389
+      provider=ldap://helm-ldap-2.helm-ldap-headless.default.svc.cluster.local:1389
       binddn=cn=admin,dc=example,dc=org
       bindmethod=simple
       credentials=Not@SecurePassw0rd
@@ -216,11 +216,11 @@ data:
 apiVersion: v1
 kind: Service
 metadata:
-  name: helm-ldap.yaml-ltb-passwd
+  name: helm-ldap-ltb-passwd
   labels:
-    app.kubernetes.io/name: helm-ldap.yaml-ltb
+    app.kubernetes.io/name: helm-ldap-ltb
     helm.sh/chart: ltb-passwd-0.1.0
-    app.kubernetes.io/instance: helm-ldap.yaml
+    app.kubernetes.io/instance: helm-ldap
     app.kubernetes.io/managed-by: Helm
 spec:
   type: ClusterIP
@@ -230,18 +230,18 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app.kubernetes.io/name: helm-ldap.yaml-ltb
-    app.kubernetes.io/instance: helm-ldap.yaml
+    app.kubernetes.io/name: helm-ldap-ltb
+    app.kubernetes.io/instance: helm-ldap
 ---
 # Source: openldap-stack-ha/charts/phpldapadmin/templates/service.yaml
 apiVersion: v1
 kind: Service
 metadata:
-  name: helm-ldap.yaml-phpldapadmin
+  name: helm-ldap-phpldapadmin
   labels:
     app: phpldapadmin
     chart: phpldapadmin-0.1.2
-    release: helm-ldap.yaml
+    release: helm-ldap
     heritage: Helm
 spec:
   type: NodePort
@@ -250,21 +250,20 @@ spec:
     targetPort: http
     protocol: TCP
     name: http
-
   selector:
     app: phpldapadmin
-    release: helm-ldap.yaml
+    release: helm-ldap
 ---
 # Source: openldap-stack-ha/templates/service.yaml
 apiVersion: v1
 kind: Service
 metadata:
-  name: helm-ldap.yaml
+  name: helm-ldap
   namespace: default
   labels:
-    app.kubernetes.io/component: helm-ldap.yaml
-    chart: helm-ldap.yaml-4.1.2
-    release: helm-ldap.yaml
+    app.kubernetes.io/component: helm-ldap
+    chart: helm-ldap-4.1.2
+    release: helm-ldap
     heritage: Helm
 spec:
   type: ClusterIP
@@ -281,18 +280,18 @@ spec:
       nodePort: null
   sessionAffinity: None
   selector:
-    app.kubernetes.io/component: helm-ldap.yaml
-    release: helm-ldap.yaml
+    app.kubernetes.io/component: helm-ldap
+    release: helm-ldap
 ---
 # Source: openldap-stack-ha/templates/svc-headless.yaml
 apiVersion: v1
 kind: Service
 metadata:
-  name: helm-ldap.yaml-headless
+  name: helm-ldap-headless
   labels:
-    app.kubernetes.io/component: helm-ldap.yaml
-    chart: helm-ldap.yaml-4.1.2
-    release: helm-ldap.yaml
+    app.kubernetes.io/component: helm-ldap
+    chart: helm-ldap-4.1.2
+    release: helm-ldap
     heritage: Helm
 spec:
   ports:
@@ -301,8 +300,8 @@ spec:
     targetPort: ldap-port
   clusterIP: None
   selector:
-    app.kubernetes.io/component: helm-ldap.yaml
-    release: helm-ldap.yaml  
+    app.kubernetes.io/component: helm-ldap
+    release: helm-ldap  
   type: ClusterIP
   sessionAffinity: None
 ---
@@ -310,24 +309,24 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: helm-ldap.yaml-ltb-passwd
+  name: helm-ldap-ltb-passwd
   labels:
-    app.kubernetes.io/name: helm-ldap.yaml-ltb
+    app.kubernetes.io/name: helm-ldap-ltb
     helm.sh/chart: ltb-passwd-0.1.0
-    app.kubernetes.io/instance: helm-ldap.yaml
+    app.kubernetes.io/instance: helm-ldap
     app.kubernetes.io/version: "1.3"
     app.kubernetes.io/managed-by: Helm
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.kubernetes.io/name: helm-ldap.yaml-ltb
-      app.kubernetes.io/instance: helm-ldap.yaml
+      app.kubernetes.io/name: helm-ldap-ltb
+      app.kubernetes.io/instance: helm-ldap
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: helm-ldap.yaml-ltb
-        app.kubernetes.io/instance: helm-ldap.yaml
+        app.kubernetes.io/name: helm-ldap-ltb
+        app.kubernetes.io/instance: helm-ldap
     spec:
       
       containers:
@@ -336,13 +335,13 @@ spec:
           imagePullPolicy: Always
           env:
           - name: LDAP_SERVER
-            value: ldaps://helm-ldap.yaml.default:636
+            value: ldaps://helm-ldap.default:636
           - name: LDAP_BINDDN
             value: cn=admin,dc=example,dc=org
           - name: LDAP_BINDPASS
             valueFrom:
               secretKeyRef:
-                name: helm-ldap.yaml-ltb-passwd
+                name: helm-ldap-ltb-passwd
                 key: LDAP_ADMIN_PASSWORD
           - name: LDAP_BASE_SEARCH
             value: "dc=example,dc=org"
@@ -374,18 +373,18 @@ spec:
       volumes:
       - name: ldap-conf
         configMap:
-          name: helm-ldap.yaml-ltb-passwd-ldap-cm
+          name: helm-ldap-ltb-passwd-ldap-cm
 ---
 # Source: openldap-stack-ha/charts/phpldapadmin/templates/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: helm-ldap.yaml-phpldapadmin
+  name: helm-ldap-phpldapadmin
   labels:
     app: phpldapadmin
     chart: phpldapadmin-0.1.2
-    release: helm-ldap.yaml
+    release: helm-ldap
     heritage: Helm
 
 spec:
@@ -393,12 +392,12 @@ spec:
   selector:
     matchLabels:
       app: phpldapadmin
-      release: helm-ldap.yaml
+      release: helm-ldap
   template:
     metadata:
       labels:
         app: phpldapadmin
-        release: helm-ldap.yaml
+        release: helm-ldap
     spec:
       
       containers:
@@ -411,7 +410,7 @@ spec:
           protocol: TCP
         envFrom:
         - configMapRef:
-            name: helm-ldap.yaml-phpldapadmin
+            name: helm-ldap-phpldapadmin
         livenessProbe:
             httpGet:
               path: /
@@ -427,38 +426,38 @@ spec:
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name:  helm-ldap.yaml
+  name:  helm-ldap
   labels:
     app.kubernetes.io/name: openldap-stack-ha
     helm.sh/chart: openldap-stack-ha-4.1.2
-    app.kubernetes.io/instance: helm-ldap.yaml
+    app.kubernetes.io/instance: helm-ldap
     app.kubernetes.io/managed-by: Helm
-    app.kubernetes.io/component: helm-ldap.yaml
-    chart: helm-ldap.yaml-4.1.2
-    release: helm-ldap.yaml
+    app.kubernetes.io/component: helm-ldap
+    chart: helm-ldap-4.1.2
+    release: helm-ldap
     heritage: Helm
 spec:
   replicas: 3
   selector:
     matchLabels: 
       app.kubernetes.io/name: openldap-stack-ha
-      app.kubernetes.io/instance: helm-ldap.yaml
-      app.kubernetes.io/component: helm-ldap.yaml
-  serviceName: helm-ldap.yaml-headless
+      app.kubernetes.io/instance: helm-ldap
+      app.kubernetes.io/component: helm-ldap
+  serviceName: helm-ldap-headless
   updateStrategy:
 
     type: RollingUpdate
   template:
     metadata:
       annotations:
-        checksum/configmap-env: f1139510a185acf108a29972c90d6dde76733e223da2aa728b4c452d8ebf4b75
+        checksum/configmap-env: ee20544d8ea4350b6081cea0a1ba7612fb224b262bb56bfb1aae42bc0d11cc70
       labels:
         app.kubernetes.io/name: openldap-stack-ha
         helm.sh/chart: openldap-stack-ha-4.1.2
-        app.kubernetes.io/instance: helm-ldap.yaml
+        app.kubernetes.io/instance: helm-ldap
         app.kubernetes.io/managed-by: Helm
-        app.kubernetes.io/component: helm-ldap.yaml
-        release: helm-ldap.yaml
+        app.kubernetes.io/component: helm-ldap
+        release: helm-ldap
     spec:
       initContainers:
         - name: init-tls-secret
@@ -490,7 +489,7 @@ spec:
                 labelSelector:
                   matchLabels:
                     app.kubernetes.io/name: openldap-stack-ha
-                    app.kubernetes.io/instance: helm-ldap.yaml
+                    app.kubernetes.io/instance: helm-ldap
                     app.kubernetes.io/component: openldap
                 namespaces:
                   - "default"
@@ -512,9 +511,9 @@ spec:
                   fieldPath: metadata.name
           envFrom:
             - configMapRef:
-                name: helm-ldap.yaml-env
+                name: helm-ldap-env
             - secretRef:
-                name: helm-ldap.yaml
+                name: helm-ldap
           resources:
             limits: {}
             requests: {}
@@ -576,7 +575,7 @@ spec:
       volumes:
         - name: replication-acls
           configMap:
-            name: helm-ldap.yaml-replication-acls
+            name: helm-ldap-replication-acls
         - name: certs
           emptyDir:
             medium: Memory
@@ -598,11 +597,11 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: helm-ldap.yaml-ltb-passwd
+  name: helm-ldap-ltb-passwd
   labels:
-    app: helm-ldap.yaml-ltb
+    app: helm-ldap-ltb
     chart: ltb-passwd-0.1.0
-    release: helm-ldap.yaml
+    release: helm-ldap
     heritage: Helm
 spec:
   rules:
@@ -613,7 +612,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: helm-ldap.yaml-ltb-passwd
+                name: helm-ldap-ltb-passwd
                 port:
                   name: http
 ---
@@ -621,11 +620,11 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: helm-ldap.yaml-phpldapadmin
+  name: helm-ldap-phpldapadmin
   labels:
     app: phpldapadmin
     chart: phpldapadmin-0.1.2
-    release: helm-ldap.yaml
+    release: helm-ldap
     heritage: Helm
 spec:
   rules:
@@ -636,7 +635,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: helm-ldap.yaml-phpldapadmin
+                name: helm-ldap-phpldapadmin
                 port:
                   name: http
 ---
