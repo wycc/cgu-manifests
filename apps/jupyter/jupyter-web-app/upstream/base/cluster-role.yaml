@@ -26,6 +26,7 @@ rules:
   - ""
   resources:
   - persistentvolumeclaims
+  - persistentvolumes
   verbs:
   - create
   - delete
