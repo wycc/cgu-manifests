@@ -11,11 +11,11 @@ data:
       config:
         inCluster: true
     web:
-      https: 0.0.0.0:5556
-      tlsCert: /etc/dex/tls/tls.crt
-      tlsKey: /etc/dex/tls/tls.key
+      #https: 0.0.0.0:5556
+      #tlsCert: /etc/dex/tls/tls.crt
+       #tlsKey: /etc/dex/tls/tls.key
       # For HTTP configuration remove tls configs and add
-      #http: 0.0.0.0:5556
+      http: 0.0.0.0:5556
     logger:
       level: "debug"
       format: text
@@ -62,17 +62,17 @@ data:
             # "(&(objectClass=person)(uid=<username>))".
             baseDN: $(ldap_user_base_dn)
             # Optional filter to apply when searching the directory.
-            filter: "(objectClass=posixAccount)"
+            filter: "(objectClass=inetOrgPerson)"
             # username attribute used for comparing user entries. This will be translated
             # and combine with the other filter as "(<attr>=<username>)".
-            username: mail
+            username: cn
             # The following three fields are direct mappings of attributes on the user entry.
             # String representation of the user.
-            idAttr: uid
+            idAttr: DN
             # Required. Attribute to map to Email.
             emailAttr: mail
             # Maps to display name of users. No default value.
-            nameAttr: uid
+            nameAttr: cn
 
           # Group search queries for groups given a user entry.
           groupSearch:
@@ -80,18 +80,18 @@ data:
             # "(&(objectClass=group)(member=<user uid>))".
             baseDN: $(ldap_group_base_dn)
             # Optional filter to apply when searching the directory.
-            filter: "(objectClass=posixGroup)"
+            filter: "(objectClass=top)"
             # Following two fields are used to match a user to a group. It adds an additional
             # requirement to the filter that an attribute in the group must match the user's
             # attribute value.
-            userAttr: gidNumber
-            groupAttr: gidNumber
+            #userMatchers:
+            #  - userAttr: cn
             # Represents group name.
             nameAttr: cn
     oauth2:
       skipApprovalScreen: true
     staticClients:
-    - id: $(client_id)
+    - idEnv: OIDC_CLIENT_ID
       redirectURIs: $(oidc_redirect_uris)
       name: 'Dex Login Application'
       secret: $(application_secret)
