@@ -41,11 +41,12 @@ spawnerFormDefaults:
 
     # the list of available container images in the dropdown
     options:
-    - kubeflownotebookswg/jupyter-scipy:v1.8.0
-    - kubeflownotebookswg/jupyter-pytorch-full:v1.8.0
-    - kubeflownotebookswg/jupyter-pytorch-cuda-full:v1.8.0
-    - kubeflownotebookswg/jupyter-tensorflow-full:v1.8.0
-    - kubeflownotebookswg/jupyter-tensorflow-cuda-full:v1.8.0
+    - cguaicadmin/remote-desktop-eng:V0.0.1
+    - cguaicadmin/remote-desktop-ros-eng:V0.0.1
+    - cguaicadmin/newlab-newpytorch:V1.0.15 
+    - cguaicadmin/remote-desktop:V1.0
+    - cguaicadmin/jupyterlab-tensorflow:V1.0
+    - wycca1/jupyterlab-mlnocopy:v1.0.12
 
   ################################################################
   # VSCode-like Container Images (Group 1)
@@ -201,20 +202,32 @@ spawnerFormDefaults:
     value: ""
 
     # the list of available affinity configs in the dropdown
-    options: []
-    #options:
-    #  - configKey: "dedicated_node_per_notebook"
-    #    displayName: "Dedicated Node Per Notebook"
-    #    affinity:
-    #      # Require a Node with label `lifecycle=kubeflow-notebook`
-    #      nodeAffinity:
-    #        requiredDuringSchedulingIgnoredDuringExecution:
-    #          nodeSelectorTerms:
-    #            - matchExpressions:
-    #                - key: "lifecycle"
-    #                  operator: "In"
-    #                  values:
-    #                    - "kubeflow-notebook"
+    #options: []
+    options:
+      - configKey: "A5000"
+        displayName: "A5000"
+        affinity:
+          # Require a Node with label `lifecycle=kubeflow-notebook`
+          nodeAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+              nodeSelectorTerms:
+                - matchExpressions:
+                    - key: "nvidia.com/gpu.product"
+                      operator: "In"
+                      values:
+                        - "NVIDIA-RTX-A5000"
+      - configKey: "MIG"
+        displayName: "MIG"
+        affinity:
+          # Require a Node with label `lifecycle=kubeflow-notebook`
+          nodeAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+              nodeSelectorTerms:
+                - matchExpressions:
+                    - key: "nvidia.com/gpu.product"
+                      operator: "In"
+                      values:
+                        - "NVIDIA-A30-MIG-1g.6gb"
     #
     #      # Require a Node WITHOUT an existing Pod having `notebook-name` label
     #      podAntiAffinity:
