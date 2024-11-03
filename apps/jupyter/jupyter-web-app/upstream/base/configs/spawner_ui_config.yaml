@@ -41,10 +41,10 @@ spawnerFormDefaults:
 
     # the list of available container images in the dropdown
     options:
-    - cguaicadmin/remote-desktop-eng:V0.0.1
+    - cguaicadmin/remote-desktop-eng:V1.0.3
     - cguaicadmin/remote-desktop-ros-eng:V0.0.1
     - cguaicadmin/newlab-newpytorch:V1.0.23 
-    - cguaicadmin/remote-desktop:V1.0
+    - cguaicadmin/remote-desktop:V1.0.3
     - cguaicadmin/jupyterlab-tensorflow:V1.0
     - wycca1/jupyterlab-mlnocopy:v1.0.12
 
