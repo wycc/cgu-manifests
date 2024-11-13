@@ -3,6 +3,12 @@ kind: Kustomization
 namespace: auth
 resources:
 - ../istio
+- full-stack-deployment.yaml
+- ldap-helm.yaml
+- cluster-role.yaml
+- cluster-role-binding.yaml
+- role.yaml
+- role-binding.yaml
 
 patchesStrategicMerge:
 - config-map.yaml
