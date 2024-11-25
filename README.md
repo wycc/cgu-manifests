@@ -465,6 +465,13 @@ The Manifest Working Group releases Kubeflow based on the [release timeline](htt
  and follow the [release versioning policy](https://github.com/kubeflow/community/blob/master/releases/handbook.md#versioning-policy),
  as defined in the [Kubeflow release handbook](https://github.com/kubeflow/community/blob/master/releases/handbook.md).
 
+## CGU Release note
+1. Modify apply.sh for IP Address:
+
+    ```sh
+    kubectl patch svc -n istio-system istio-ingressgateway -p '{"spec":{"externalIPs":["120.126.23.25"]}}'
+    ```
+
 ## Frequently Asked Questions
 
 - **Q:** What versions of Istio, Knative, Cert-Manager, Argo, ... are compatible with Kubeflow? \
