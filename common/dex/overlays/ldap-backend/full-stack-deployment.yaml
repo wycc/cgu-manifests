@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: docker.io/twentyfouritaiwan/ldap_backend:v0.1.0
+          image: docker.io/twentyfouritaiwan/ldap_backend:v0.1.09
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
