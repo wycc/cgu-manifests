@@ -46,6 +46,7 @@ resources:
 - ../common/dex/overlays/ldap
 - ../common/dex/overlays/ldap-backend
 - ../common/dex/overlays/ldap-server
+- ../common/dex/overlays/pod-killer
 # KNative
 - ../common/knative/knative-serving/overlays/gateways
 - ../common/knative/knative-eventing/base
