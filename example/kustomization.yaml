@@ -92,3 +92,4 @@ resources:
 
 # cgu
 - ../cgu/monitor
+- ../cgu/qnap-controller
