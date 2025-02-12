@@ -496,6 +496,7 @@ spec:
           
       securityContext:
         fsGroup: 1001
+        runAsUser: 0
       containers:
         - name: openldap-stack-ha
           image: bitnami/openldap:2.6.3
