@@ -5,21 +5,21 @@ QNAP_USERNAME=
 QNAP_PASWWORD=
 source env.ini
 if [ -z "$MASTER_IP" ]; then
-	echo "Please setup the environment variable MASTER_IP to be the IP address of your master"
+	echo "Please setup the environment variable MASTER_IP to be the IP address of your master in env.ini"
 	exit;
 fi
 if [ -z "$QNAP_IP" ]; then
-	echo "Please setup the environment variable QNAP_IP,QNAP_USERNAME,QNAP_PASSWORD"
+	echo "Please setup the environment variable QNAP_IP,QNAP_USERNAME,QNAP_PASSWORD in env.ini"
 	exit;
 fi
 
 if [ -z "$QNAP_PASSWORD" ]; then
-	echo "Please setup the environment variable QNAP_PASSWORD"
+	echo "Please setup the environment variable QNAP_PASSWORD in env.ini"
 	exit;
 fi
 
 if [ -z "$QNAP_USERNAME" ]; then
-	echo "Please setup the environment variable QNAP_USERNAME"
+	echo "Please setup the environment variable QNAP_USERNAME in env.ini"
 	exit;
 fi
 
