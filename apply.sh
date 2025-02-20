@@ -1,9 +1,28 @@
 #!/bin/bash
-
+MASTER_IP=
+QNAP_IP=
+QNAP_USERNAME=
+QNAP_PASWWORD=
+source env.ini
 if [ -z "$MASTER_IP" ]; then
 	echo "Please setup the environment variable MASTER_IP to be the IP address of your master"
 	exit;
 fi
+if [ -z "$QNAP_IP" ]; then
+	echo "Please setup the environment variable QNAP_IP,QNAP_USERNAME,QNAP_PASSWORD"
+	exit;
+fi
+
+if [ -z "$QNAP_PASSWORD" ]; then
+	echo "Please setup the environment variable QNAP_PASSWORD"
+	exit;
+fi
+
+if [ -z "$QNAP_USERNAME" ]; then
+	echo "Please setup the environment variable QNAP_USERNAME"
+	exit;
+fi
+
 
 cd cgu-manifests
 kubectl delete svc -n istio-system istio-ingressgateway
@@ -19,4 +38,13 @@ helm upgrade -i nvdp nvdp/nvidia-device-plugin \
   --namespace nvidia-device-plugin \
   --create-namespace \
   --set compatWithCPUManager=true \
-  --set gfd.enabled=true
+  --set gfd.enabled=true\
+  --set-file config.map.default=mps.config \
+  --set-file config.map.nomps=nomps.config
+
+QNAP_IP_64=`echo -n ${QNAP_IP} | base64`
+QNAP_USERNAME_64=`echo -n ${QNAP_USERNAME} | base64`
+QNAP_PASSWORD_64=`echo -n ${QNAP_PASSWORD} | base64`
+
+kubectl patch cm qnap-config -n kubeflow -p "{\"data\":{\"ip\":\"${QNAP_IP_64}\",\"username\":\"${QNAP_USERNAME_64}\",\"password\":\"${QNAP_PASSWORD_64}\"}}"
+python addqnap.py
