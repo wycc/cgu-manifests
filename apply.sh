@@ -2,7 +2,7 @@
 MASTER_IP=
 QNAP_IP=
 QNAP_USERNAME=
-QNAP_PASWWORD=
+QNAP_PASSWORD=
 source env.ini
 if [ -z "$MASTER_IP" ]; then
 	echo "Please setup the environment variable MASTER_IP to be the IP address of your master in env.ini"
