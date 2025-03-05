@@ -3567,6 +3567,10 @@ spec:
     port: 12345
     protocol: TCP
     targetPort: 8080
+  - name: webui
+    port: 33222
+    protocol: TCP
+    targetPort: 8082
   - name: https
     port: 14443
     protocol: TCP
