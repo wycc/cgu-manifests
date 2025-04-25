@@ -34,6 +34,9 @@ configMapGenerator:
   - configs/spawner_ui_config.yaml
   - configs/notebook_template.yaml
   - configs/notebook_template_clone.yaml
+  - configs/sample_pv.yaml
+  - configs/sample_pvc.yaml
+  - configs/authorizationpolicy_template.yaml
   name: config
 vars:
 - fieldref:
