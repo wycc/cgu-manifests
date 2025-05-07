@@ -94,3 +94,5 @@ resources:
 # cgu
 - ../cgu/monitor
 - ../cgu/qnap-controller
+- ../cgu/daemonset_watcher
+
