@@ -48,6 +48,9 @@ spec:
         image: docker.io/kubeflownotebookswg/pvcviewer-controller
         imagePullPolicy: IfNotPresent
         name: manager
+        env:
+        - name: VWA_APP_SECURE_COOKIES
+          value: "FALSE"
         securityContext:
           allowPrivilegeEscalation: false
           capabilities:

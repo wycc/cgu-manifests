@@ -47,7 +47,10 @@ spawnerFormDefaults:
     - cguaicadmin/remote-desktop:V1.0.8
     - cguaicadmin/newlab-newpytorch:V1.0.8
     - cguaicadmin/jupyterlab-tensorflow:V1.0
-
+    - cguaicadmin/remote-desktop-eng:V1.0.9-beta
+    - cguaicadmin/remote-desktop:V1.0.9-beta
+    - cguaicadmin/newlab-newpytorch:V1.0.9-beta
+    
   ################################################################
   # VSCode-like Container Images (Group 1)
   #
