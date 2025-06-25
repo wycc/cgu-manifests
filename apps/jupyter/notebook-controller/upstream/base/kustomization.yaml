@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../default
 images:
-- name: docker.io/kubeflownotebookswg/notebook-controller
-  newName: docker.io/kubeflownotebookswg/notebook-controller
-  newTag: v1.8.0
+- name: cguaicadmin/notebook-controller
+  newName: cguaicadmin/notebook-controller
+  newTag: 20250316_1
