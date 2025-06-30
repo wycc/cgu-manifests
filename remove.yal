@@ -128156,7 +128156,7 @@ spec:
             configMapKeyRef:
               key: IDLENESS_CHECK_PERIOD
               name: notebook-controller-config-dm5b6dd458
-        image: docker.io/kubeflownotebookswg/notebook-controller:v1.8.0
+        image: docker.io/kubeflownotebookswg/notebook-controller:20250316_1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
