@@ -49,3 +49,10 @@ rules:
   - virtualservices
   verbs:
   - '*'
+- apiGroups:
+  - security.istio.io
+  resources:
+  - authorizationpolicies
+  verbs:
+  - '*'
+

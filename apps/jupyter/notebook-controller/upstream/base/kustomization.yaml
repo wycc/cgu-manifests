@@ -5,4 +5,4 @@ resources:
 images:
 - name: cguaicadmin/notebook-controller
   newName: cguaicadmin/notebook-controller
-  newTag: 20250316_1
+  newTag: tcp8000-v1.5.0-rc.0-467-gb050de8f-dirty
