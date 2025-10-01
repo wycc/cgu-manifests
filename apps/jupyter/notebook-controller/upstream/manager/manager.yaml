@@ -19,7 +19,7 @@ spec:
       containers:
       - name: manager
       
-        image: cguaicadmin/notebook-controller:v1.5.0-rc.0-474-g31c93c21
+        image: cguaicadmin/notebook-controller:tcp8000-v1.5.0-rc.0-467-gb050de8f-dirty
         command:
           - /manager
         env:
