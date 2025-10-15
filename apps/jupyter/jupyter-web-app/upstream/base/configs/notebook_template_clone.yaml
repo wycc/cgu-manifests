@@ -27,7 +27,7 @@ spec:
             capabilities:
               add:
               - IPC_LOCK              
-        - image: cguaicadmin/qnapcopy:v0.1.10
+        - image: cguaicadmin/qnapcopy:v0.1.15
           name: clone
           env:
             - name: IP
