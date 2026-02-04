@@ -47,4 +47,4 @@ QNAP_USERNAME_64=`echo -n ${QNAP_USERNAME} | base64`
 QNAP_PASSWORD_64=`echo -n ${QNAP_PASSWORD} | base64`
 
 kubectl patch cm qnap-config -n kubeflow -p "{\"data\":{\"ip\":\"${QNAP_IP}\",\"username\":\"${QNAP_USERNAME}\",\"password\":\"${QNAP_PASSWORD}\"}}"
-python addqnap.py
+python3 addqnap.py
