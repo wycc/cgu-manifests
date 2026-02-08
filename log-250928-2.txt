@@ -1,0 +1,1405 @@
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+limitrange/default-cpu-mem-limits unchanged
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+limitrange/default-cpu-mem-limits unchanged
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+Warning: resource secrets/qnap is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+secret/qnap configured
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+Warning: resource secrets/qnap is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+secret/qnap configured
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+secret/qnap unchanged
+Warning: resource limitranges/default-cpu-mem-limits is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+limitrange/default-cpu-mem-limits configured
+add qnap to aictest1
+
+add qnap to ashish
+
+add qnap to b0921141
+
+add qnap to b0929025
+
+add qnap to b1021129
+
+add qnap to b1021206
+
+add qnap to b1021208
+
+add qnap to b1021241
+
+add qnap to b1028001
+
+add qnap to b1028004
+
+add qnap to b1028013
+
+add qnap to b1028030
+
+add qnap to b1044152
+
+add qnap to b1126006
+
+add qnap to b1128001
+
+add qnap to b1128003
+
+add qnap to b1128004
+
+add qnap to b1128005
+
+add qnap to b1128006
+
+add qnap to b1128007
+
+add qnap to b1128008
+
+add qnap to b1128010
+
+add qnap to b1128011
+
+add qnap to b1128012
+
+add qnap to b1128014
+
+add qnap to b1128015
+
+add qnap to b1128016
+
+add qnap to b1128017
+
+add qnap to b1128018
+
+add qnap to b1128019
+
+add qnap to b1128020
+
+add qnap to b1128021
+
+add qnap to b1128022
+
+add qnap to b1128023
+
+add qnap to b1128024
+
+add qnap to b1128025
+
+add qnap to b1128026
+
+add qnap to b1128027
+
+add qnap to b1128028
+
+add qnap to b1128029
+
+add qnap to b1128030
+
+add qnap to b1128031
+
+add qnap to b1128032
+
+add qnap to b1128033
+
+add qnap to b1144115
+
+add qnap to b1144119
+
+add qnap to b1144150
+
+add qnap to b1144209
+
+add qnap to b1144230
+
+add qnap to b1144233
+
+add qnap to b1144234
+
+add qnap to b1144257
+
+add qnap to b1209102
+
+add qnap to b1209262
+
+add qnap to b1228001
+
+add qnap to b1228002
+
+add qnap to b1228003
+
+add qnap to b1228005
+
+add qnap to b1228006
+
+add qnap to b1228007
+
+add qnap to b1228008
+
+add qnap to b1228010
+
+add qnap to b1228011
+
+add qnap to b1228012
+
+add qnap to b1228013
+
+add qnap to b1228016
+
+add qnap to b1228019
+
+add qnap to b1228020
+
+add qnap to b1228021
+
+add qnap to b1228022
+
+add qnap to b1228025
+
+add qnap to b1228026
+
+add qnap to b1228027
+
+add qnap to b1228029
+
+add qnap to b1228030
+
+add qnap to b1228031
+
+add qnap to b1228032
+
+add qnap to b1228034
+
+add qnap to b1228035
+
+add qnap to b1228036
+
+add qnap to b1228037
+
+add qnap to b1228038
+
+add qnap to b1228039
+
+add qnap to b1228043
+
+add qnap to b1228046
+
+add qnap to b1228047
+
+add qnap to b1228048
+
+add qnap to b1241003
+
+add qnap to b1245004
+
+add qnap to b1245025
+
+add qnap to b1245036
+
+add qnap to b1302069
+
+add qnap to b1328001
+
+add qnap to b1328002
+
+add qnap to b1328004
+
+add qnap to b1328005
+
+add qnap to b1328006
+
+add qnap to b1328007
+
+add qnap to b1328008
+
+add qnap to b1328009
+
+add qnap to b1328010
+
+add qnap to b1328012
+
+add qnap to b1328013
+
+add qnap to b1328015
+
+add qnap to b1328016
+
+add qnap to b1328017
+
+add qnap to b1328018
+
+add qnap to b1328019
+
+add qnap to b1328020
+
+add qnap to b1328021
+
+add qnap to b1328022
+
+add qnap to b1328023
+
+add qnap to b1328024
+
+add qnap to b1328026
+
+add qnap to b1328027
+
+add qnap to b1328028
+
+add qnap to b1328029
+
+add qnap to b1328030
+
+add qnap to b1328031
+
+add qnap to b1328032
+
+add qnap to b1328034
+
+add qnap to b1328035
+
+add qnap to b1328037
+
+add qnap to b1328038
+
+add qnap to b1328039
+
+add qnap to b1328041
+
+add qnap to b1328042
+
+add qnap to b1328043
+
+add qnap to b1328046
+
+add qnap to b1342031
+
+add qnap to b1402007
+
+add qnap to d000007848
+
+add qnap to d000008402
+
+add qnap to d000015445
+
+add qnap to d000015497
+
+add qnap to d000017445
+
+add qnap to d000018231
+
+add qnap to d000018238
+
+add qnap to d000019097
+
+add qnap to d000019107
+
+add qnap to d000019112
+
+add qnap to d000019780
+
+add qnap to d000020161
+
+add qnap to d003
+
+add qnap to d11944008
+
+add qnap to d1200701
+
+add qnap to d1215003
+
+add qnap to d1300701
+
+add qnap to d1300702
+
+add qnap to d1300703
+
+add qnap to d1300704
+
+add qnap to d1300705
+
+add qnap to d1300706
+
+add qnap to d1400701
+
+add qnap to d1400702
+
+add qnap to d1400703
+
+add qnap to d1400704
+
+add qnap to d1400705
+
+add qnap to d1400706
+
+add qnap to db1028025
+
+add qnap to dd000018231
+
+add qnap to debug1
+
+add qnap to debug2
+
+add qnap to debug3
+
+add qnap to debug4
+
+add qnap to debug5
+
+add qnap to debug6
+
+add qnap to debug7
+
+add qnap to debug8
+
+add qnap to debug9
+
+add qnap to dm1261010
+
+add qnap to eric
+
+add qnap to erictest
+
+add qnap to erictest2
+
+add qnap to hen
+
+add qnap to hj098128
+
+add qnap to hl
+
+add qnap to kjlin
+
+add qnap to kubeflow-user-example-com
+
+add qnap to lance
+
+add qnap to lance101
+
+add qnap to lance1021
+
+add qnap to lance103
+
+add qnap to m0000xxxx1
+
+add qnap to m0000xxxx10
+
+add qnap to m0000xxxx2
+
+add qnap to m0000xxxx3
+
+add qnap to m0000xxxx4
+
+add qnap to m0000xxxx5
+
+add qnap to m0000xxxx6
+
+add qnap to m0000xxxx7
+
+add qnap to m0000xxxx8
+
+add qnap to m0000xxxx9
+
+add qnap to m1161007
+
+add qnap to m1161009
+
+add qnap to m1229008
+
+add qnap to m1261002
+
+add qnap to m1261003
+
+add qnap to m1261004
+
+add qnap to m1261005
+
+add qnap to m1261008
+
+add qnap to m1261009
+
+add qnap to m1261015
+
+add qnap to m1261018
+
+add qnap to m1261019
+
+add qnap to m1261021
+
+add qnap to m1329001
+
+add qnap to m1329008
+
+add qnap to m1329019
+
+add qnap to m1332012
+
+add qnap to m1344024
+
+add qnap to m1361001
+
+add qnap to m1361003
+
+add qnap to m1361004
+
+add qnap to m1361006
+
+add qnap to m1361007
+
+add qnap to m1361008
+
+add qnap to m1361010
+
+add qnap to m1361012
+
+add qnap to m1361016
+
+add qnap to m1361018
+
+add qnap to m1361019
+
+add qnap to m1361022
+
+add qnap to m1361025
+
+add qnap to m1361026
+
+add qnap to m1422027
+
+add qnap to m1429034
+
+add qnap to m1461001
+
+add qnap to m1461002
+
+add qnap to m1461003
+
+add qnap to m1461004
+
+add qnap to m1461005
+
+add qnap to m1461006
+
+add qnap to m1461007
+
+add qnap to m1461008
+
+add qnap to m1461009
+
+add qnap to m1461010
+
+add qnap to m1461011
+
+add qnap to m1461012
+
+add qnap to m1461013
+
+add qnap to m1461014
+
+add qnap to m1461015
+
+add qnap to m1461016
+
+add qnap to m1461017
+
+add qnap to m1461018
+
+add qnap to m1461019
+
+add qnap to m1461020
+
+add qnap to m1461021
+
+add qnap to m1461022
+
+add qnap to m1461023
+
+add qnap to m1461024
+
+add qnap to m1461025
+
+add qnap to m1461026
+
+add qnap to m1461027
+
+add qnap to m1461028
+
+add qnap to m1461029
+
+add qnap to m1461030
+
+add qnap to m1461031
+
+add qnap to m1461032
+
+add qnap to m1461033
+
+add qnap to m1462001
+
+add qnap to m1462002
+
+add qnap to m1462003
+
+add qnap to m1462004
+
+add qnap to mlmagroup1
+
+add qnap to mlmagroup2
+
+add qnap to mlmagroup2dash2
+
+add qnap to mlmagroup3
+
+add qnap to mlmatest
+
+add qnap to new1
+
+add qnap to new2
+
+add qnap to new30
+
+add qnap to new31
+
+add qnap to new32
+
+add qnap to newuser
+
+add qnap to nguyen
+
+add qnap to tafordemo
+
+add qnap to teacherfordemo
+
+add qnap to wycca1
+
+add qnap to yjhsu
+
+add qnap to yuantest
+
