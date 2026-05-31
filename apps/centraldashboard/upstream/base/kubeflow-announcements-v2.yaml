@@ -1,0 +1,82 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kubeflow-announcements
+  namespace: kubeflow
+data:
+  announcements.json: |
+    {
+      "maxAnnouncements": 20,
+      "announcements": [
+        {
+          "id": 10,
+          "date": "2026-05-20",
+          "title": "GPU 節點維護預告",
+          "content": "預計於下週三凌晨 02:00 進行運算節點升級，屆時部分任務可能暫停。",
+          "type": "warning"
+        },
+        {
+          "id": 9,
+          "date": "2026-05-15",
+          "title": "新版 Kubeflow SDK 課程",
+          "content": "內部訓練課程已上傳至 Wiki，歡迎開發人員參考學習。",
+          "type": "info"
+        },
+        {
+          "id": 8,
+          "date": "2026-05-01",
+          "title": "五月份系統穩定度報告",
+          "content": "上月份系統可用性達 99.9%，感謝各單位的配合。",
+          "type": "success"
+        },
+        {
+          "id": 7,
+          "date": "2026-04-20",
+          "title": "儲存空間清理提醒",
+          "content": "請檢查您的 Notebook 工作區，刪除超過 30 天未使用的臨時文件。",
+          "type": "warning"
+        },
+        {
+          "id": 6,
+          "date": "2026-04-10",
+          "title": "LDAP 認證機制優化",
+          "content": "系統已優化登入效能，解決了尖峰時段反應緩慢的問題。",
+          "type": "info"
+        },
+        {
+          "id": 5,
+          "date": "2026-03-25",
+          "title": "模型部署 API 更新",
+          "content": "KServe 介面版本已更新，請參考最新的 API 文件進行調用。",
+          "type": "info"
+        },
+        {
+          "id": 4,
+          "date": "2026-03-15",
+          "title": "春季開發馬拉松獲獎名單",
+          "content": "恭喜技術部三組獲得最佳模型效能獎！",
+          "type": "success"
+        },
+        {
+          "id": 3,
+          "date": "2026-03-01",
+          "title": "安全性修補程式更新",
+          "content": "已完成本季度的 Linux 內核與 Docker 鏡像安全性修補。",
+          "type": "info"
+        },
+        {
+          "id": 2,
+          "date": "2026-02-15",
+          "title": "硬體資源擴充通知",
+          "content": "新增 4 台 A100 GPU 伺服器，現已加入訓練叢集供申請使用。",
+          "type": "success"
+        },
+        {
+          "id": 1,
+          "date": "2026-02-01",
+          "title": "歡迎使用 AI 協作平台",
+          "content": "本平台致力於提供高效的機器學習工作流環境，如有疑問請聯繫管理員。",
+          "type": "info"
+        }
+      ]
+    }

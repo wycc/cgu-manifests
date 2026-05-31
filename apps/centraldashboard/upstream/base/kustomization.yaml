@@ -10,6 +10,7 @@ resources:
 - service-account.yaml
 - service.yaml
 - configmap.yaml
+- kubeflow-announcements-v2.yaml
 commonLabels:
   kustomize.component: centraldashboard
   app: centraldashboard
@@ -17,8 +18,8 @@ commonLabels:
   app.kubernetes.io/name: centraldashboard
 images:
 - name: docker.io/kubeflownotebookswg/centraldashboard
-  newName: docker.io/kubeflownotebookswg/centraldashboard
-  newTag: v1.8.0
+  newName: dcguaicadmin/centraldashboard
+  newTag: v0.0.01
 configMapGenerator:
 - envs:
   - params.env
