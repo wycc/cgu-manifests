@@ -1,0 +1,9 @@
+# TODO(https://github.com/kubeflow/manifests/issues/774):
+# This is a legacy package. Hopefully we can get rid of it once
+# 774 is complete.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- deployment.yaml
+- role.yaml
+- role_binding.yaml

@@ -50,7 +50,8 @@ spawnerFormDefaults:
     - cguaicadmin/remote-desktop-eng:V1.0.9-beta
     - cguaicadmin/remote-desktop:V1.0.9-beta
     - cguaicadmin/newlab-newpytorch:V1.0.9-beta
-    
+    - cguaicadmin/remote-desktop:V1.1.0
+
   ################################################################
   # VSCode-like Container Images (Group 1)
   #

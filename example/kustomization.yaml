@@ -95,4 +95,5 @@ resources:
 - ../cgu/monitor
 - ../cgu/qnap-controller
 - ../cgu/daemonset_watcher
+- ../cgu/notebook-external-access-controller
 
