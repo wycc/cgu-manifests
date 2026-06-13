@@ -18,7 +18,7 @@ commonLabels:
   app.kubernetes.io/name: centraldashboard
 images:
 - name: docker.io/kubeflownotebookswg/centraldashboard
-  newName: dcguaicadmin/centraldashboard
+  newName: cguaicadmin/centraldashboard
   newTag: v0.0.01
 configMapGenerator:
 - envs:
