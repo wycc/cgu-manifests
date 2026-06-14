@@ -96,4 +96,6 @@ resources:
 - ../cgu/qnap-controller
 - ../cgu/daemonset_watcher
 - ../cgu/notebook-external-access-controller
+- ../cgu/groupshare
+- ../cgu/namespace_share
 
