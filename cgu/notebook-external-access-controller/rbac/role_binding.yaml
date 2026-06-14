@@ -9,4 +9,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: default
-  namespace: cgu
+  namespace: cgu # 假設 Controller 部署在 'system' 命名空間

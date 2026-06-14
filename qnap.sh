@@ -13,7 +13,8 @@ QNAP_PASSWORD_64=`echo -n ${QNAP_PASSWORD} | base64`
 
 kubectl patch cm qnap-config -n kubeflow -p "{\"data\":{\"ip\":\"${QNAP_IP_64}\",\"username\":\"${QNAP_USERNAME_64}\",\"password\":\"${QNAP_PASSWORD_64}\"}}"
 
-NFS_PATH='$(QNAP_MOUNT)/shared'
+NFS_PATH="${QNAP_MOUNT}"
+echo "Patching ldap/backend-deployment NFS path: ${QNAP_IP}:${NFS_PATH}"
 kubectl patch deployment backend-deployment -n ldap --type='strategic' -p "{\"spec\":{\"template\":{\"spec\":{\"volumes\":[{\"name\":\"groupshare-storage\",\"nfs\":{\"server\":\"${QNAP_IP}\",\"path\":\"${NFS_PATH}\"}}]}}}}"
 
 python3 addqnap.py
