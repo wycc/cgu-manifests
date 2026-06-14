@@ -19,7 +19,7 @@ kubectl -n "${KUBEFLOW_NS}" delete pod \
   -l app=groupshare-controller \
   --ignore-not-found=true --grace-period=0 --force || true
 kubectl -n "${KUBEFLOW_NS}" delete pod \
-  -l app=groupshare-webhook \
+  -l app=groupshare-validating-webhook \
   --ignore-not-found=true --grace-period=0 --force || true
 kubectl -n "${KUBEFLOW_NS}" delete pod \
   -l app=namespace-share-controller \
@@ -28,7 +28,7 @@ kubectl -n "${KUBEFLOW_NS}" delete pod \
 echo "[STEP] Delete known webhook/cert leftovers"
 kubectl delete validatingwebhookconfiguration groupshare-validating-webhook --ignore-not-found=true || true
 kubectl -n "${KUBEFLOW_NS}" delete certificate groupshare-webhook-cert --ignore-not-found=true || true
-kubectl -n "${KUBEFLOW_NS}" delete secret groupshare-webhook-certs --ignore-not-found=true || true
+kubectl -n "${KUBEFLOW_NS}" delete secret groupshare-webhook-tls --ignore-not-found=true || true
 
 echo "[STEP] Delete known configmaps explicitly"
 kubectl -n "${KF_STORAGE_NS}" delete configmap groupshare-nfs-defaults namespace-share-nfs-defaults --ignore-not-found=true || true
