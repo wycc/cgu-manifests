@@ -25,6 +25,35 @@ fi
 
 
 # cd cgu-manifests
+
+# Pre-create NFS ConfigMaps from env.ini before kustomize apply
+GROUPSHARE_NFS_PATH="${QNAP_MOUNT}"
+NAMESPACE_SHARE_NFS_PATH="${QNAP_MOUNT}/_namespaces"
+
+echo "Pre-creating groupshare-nfs-defaults: ${QNAP_IP}:${GROUPSHARE_NFS_PATH}"
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: groupshare-nfs-defaults
+  namespace: kf-storage
+data:
+  NFS_SERVER: "${QNAP_IP}"
+  NFS_PATH: "${GROUPSHARE_NFS_PATH}"
+EOF
+
+echo "Pre-creating namespace-share-nfs-defaults: ${QNAP_IP}:${NAMESPACE_SHARE_NFS_PATH}"
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: namespace-share-nfs-defaults
+  namespace: kf-storage
+data:
+  NFS_SERVER: "${QNAP_IP}"
+  NFS_PATH: "${NAMESPACE_SHARE_NFS_PATH}"
+EOF
+
 kubectl delete svc -n istio-system istio-ingressgateway
 while ! kustomize build ./example | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 20; done
 kubectl patch svc -n istio-system istio-ingressgateway -p "{\"spec\":{\"externalIPs\":[\"${MASTER_IP}\"]}}"
