@@ -2,7 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - deploy/controller-rbac.yaml
-- deploy/controller-configmap.yaml
 - deploy/controller-code-configmap.yaml
 - deploy/controller-deployment.yaml
 - deploy/webhook-rbac.yaml

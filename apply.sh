@@ -3,6 +3,7 @@ MASTER_IP=
 QNAP_IP=
 QNAP_USERNAME=
 QNAP_PASSWORD=
+QNAP_SHARED_NAMESPACE=
 source env.ini
 if [ -z "$MASTER_IP" ]; then
 	echo "Please setup the environment variable MASTER_IP to be the IP address of your master in env.ini"
@@ -23,10 +24,14 @@ if [ -z "$QNAP_USERNAME" ]; then
 	exit;
 fi
 
+if [ -z "$QNAP_SHARED_NAMESPACE" ]; then
+  echo "Please setup the environment variable QNAP_SHARED_NAMESPACE in env.ini"
+  exit;
+fi
+
 
 # cd cgu-manifests
-
-# Pre-create NFS ConfigMaps from env.ini before kustomize apply
+# Pre-create NFS ConfigMaps before kustomize apply so controllers start with correct values.
 GROUPSHARE_NFS_PATH="${QNAP_MOUNT}"
 NAMESPACE_SHARE_NFS_PATH="${QNAP_MOUNT}/_namespaces"
 
@@ -36,7 +41,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: groupshare-nfs-defaults
-  namespace: kf-storage
+  namespace: ${QNAP_SHARED_NAMESPACE}
 data:
   NFS_SERVER: "${QNAP_IP}"
   NFS_PATH: "${GROUPSHARE_NFS_PATH}"
@@ -48,7 +53,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: namespace-share-nfs-defaults
-  namespace: kf-storage
+  namespace: ${QNAP_SHARED_NAMESPACE}
 data:
   NFS_SERVER: "${QNAP_IP}"
   NFS_PATH: "${NAMESPACE_SHARE_NFS_PATH}"
