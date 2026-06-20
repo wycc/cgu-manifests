@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 - deploy/controller-rbac.yaml
 - deploy/controller-code-configmap.yaml
+- deploy/controller-configmap.yaml
 - deploy/controller-deployment.yaml
 - deploy/webhook-rbac.yaml
 - deploy/webhook-code-configmap.yaml
