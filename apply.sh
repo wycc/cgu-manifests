@@ -80,8 +80,6 @@ sed -i "s|NFS_PATH:.*|NFS_PATH: \"${NAMESPACE_SHARE_NFS_PATH_ESCAPED}\"|" "${NAM
 # Keep ldap backend groupshare NFS settings synced with env.ini before applying manifests.
 sed -i "/- name: groupshare-storage/{n;n;s|server:.*|server: ${QNAP_IP_ESCAPED}|;n;s|path:.*|path: ${QNAP_MOUNT_ESCAPED}|;}" "${LDAP_BACKEND_DEPLOY}"
 
-exit
-
 kubectl delete svc -n istio-system istio-ingressgateway
 while ! kustomize build ./example | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 20; done
 kubectl patch svc -n istio-system istio-ingressgateway -p "{\"spec\":{\"externalIPs\":[\"${MASTER_IP}\"]}}"
