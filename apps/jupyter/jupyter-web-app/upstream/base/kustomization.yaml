@@ -23,7 +23,7 @@ commonLabels:
 images:
 - name: docker.io/kubeflownotebookswg/jupyter-web-app
   newName: docker.io/cguaicadmin/jupyter
-  newTag: v0.3.00
+  newTag: v0.3.01
 # We need the name to be unique without the suffix because the original name is what
 # gets used with patches
 configMapGenerator:
