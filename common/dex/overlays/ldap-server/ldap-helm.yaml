@@ -331,7 +331,7 @@ spec:
       
       containers:
         - name: ltb-passwd
-          image: tiredofit/self-service-password:5.2.3
+          image: ltbproject/self-service-password:1.8
           imagePullPolicy: Always
           env:
           - name: LDAP_SERVER
