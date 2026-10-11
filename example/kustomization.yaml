@@ -99,3 +99,20 @@ resources:
 - ../cgu/groupshare
 - ../cgu/namespace_share
 
+patches:
+- target:
+    kind: PersistentVolumeClaim
+    name: authservice-pvc
+    namespace: istio-system
+  patch: |-
+    - op: replace
+      path: /spec/accessModes
+      value:
+      - ReadWriteMany
+    - op: add
+      path: /spec/storageClassName
+      value: nfs-client
+
+images:
+- name: gcr.io/kubebuilder/kube-rbac-proxy
+  newName: quay.io/brancz/kube-rbac-proxy
