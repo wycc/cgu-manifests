@@ -80,9 +80,14 @@ sed -i "s|NFS_PATH:.*|NFS_PATH: \"${NAMESPACE_SHARE_NFS_PATH_ESCAPED}\"|" "${NAM
 # Keep ldap backend groupshare NFS settings synced with env.ini before applying manifests.
 sed -i "/- name: groupshare-storage/{n;n;s|server:.*|server: ${QNAP_IP_ESCAPED}|;n;s|path:.*|path: ${QNAP_MOUNT_ESCAPED}|;}" "${LDAP_BACKEND_DEPLOY}"
 
+# GroupShare prerequisites kustomize cannot express (idempotent; existing objects are kept).
+QNAP_IP="${QNAP_IP}" QNAP_MOUNT="${QNAP_MOUNT}" bash cgu/groupshare/scripts/bootstrap.sh nfs
+bash cgu/groupshare/scripts/bootstrap.sh secrets
+
 kubectl delete svc -n istio-system istio-ingressgateway
 while ! kustomize build ./example | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 20; done
 kubectl patch svc -n istio-system istio-ingressgateway -p "{\"spec\":{\"externalIPs\":[\"${MASTER_IP}\"]}}"
+bash cgu/groupshare/scripts/bootstrap.sh webhook
 # kubectl patch svc -n istio-system istio-ingressgateway -p '{"spec":{"type":"ClusterIP"}}'
 kubectl taint nodes $(hostname -s) node-role.kubernetes.io/control-plane:NoSchedule
 helm repo add nvdp https://nvidia.github.io/k8s-device-plugin
@@ -103,3 +108,6 @@ QNAP_PASSWORD_64=`echo -n ${QNAP_PASSWORD} | base64`
 
 kubectl patch cm qnap-config -n kubeflow -p "{\"data\":{\"ip\":\"${QNAP_IP_64}\",\"username\":\"${QNAP_USERNAME_64}\",\"password\":\"${QNAP_PASSWORD_64}\"}}"
 python3 addqnap.py
+
+# Post-deploy GroupShare / NamespaceShare verification (read-only).
+bash cgu/groupshare/scripts/check.sh env.ini

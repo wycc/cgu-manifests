@@ -116,3 +116,7 @@ patches:
 images:
 - name: gcr.io/kubebuilder/kube-rbac-proxy
   newName: quay.io/brancz/kube-rbac-proxy
+# Backend with GroupShare reconciliation (Dockerfile.groupshare-overlay in AI_Centre_Admin).
+# Push this tag to Docker Hub before applying.
+- name: docker.io/cguaicadmin/ldap_backend
+  newTag: v2610121415
