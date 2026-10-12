@@ -47,8 +47,8 @@ if [ -z "$QNAP_NFS_DEPLOYMENT" ]; then
 fi
 
 escape_sed_replacement() {
-  # Escape replacement text for sed (& and backslash).
-  printf '%s' "$1" | sed -e 's/[&\\]/\\\\&/g'
+  # Escape replacement text for sed: & and backslash, plus | because the seds below use it as delimiter.
+  printf '%s' "$1" | sed -e 's/[&\\|]/\\&/g'
 }
 
 GROUPSHARE_CONTROLLER_DEPLOY="cgu/groupshare/deploy/controller-deployment.yaml"
