@@ -81,13 +81,21 @@ sed -i "s|NFS_PATH:.*|NFS_PATH: \"${NAMESPACE_SHARE_NFS_PATH_ESCAPED}\"|" "${NAM
 sed -i "/- name: groupshare-storage/{n;n;s|server:.*|server: ${QNAP_IP_ESCAPED}|;n;s|path:.*|path: ${QNAP_MOUNT_ESCAPED}|;}" "${LDAP_BACKEND_DEPLOY}"
 
 # GroupShare prerequisites kustomize cannot express (idempotent; existing objects are kept).
-QNAP_IP="${QNAP_IP}" QNAP_MOUNT="${QNAP_MOUNT}" bash cgu/groupshare/scripts/bootstrap.sh nfs
-bash cgu/groupshare/scripts/bootstrap.sh secrets
+# Stop before touching the cluster when one fails: a deployment without NFS directories or webhook
+# trust leaves Notebooks unable to start.
+groupshare_prerequisite_failed() {
+  echo "GroupShare prerequisite '$1' failed; stopped before deploying. Fix it and run apply.sh again."
+  exit 1
+}
+QNAP_IP="${QNAP_IP}" QNAP_MOUNT="${QNAP_MOUNT}" bash cgu/groupshare/scripts/bootstrap.sh nfs || groupshare_prerequisite_failed nfs
+bash cgu/groupshare/scripts/bootstrap.sh secrets || groupshare_prerequisite_failed secrets
+bash cgu/groupshare/scripts/bootstrap.sh vwc || groupshare_prerequisite_failed vwc
+GROUPSHARE_RC=0
 
 kubectl delete svc -n istio-system istio-ingressgateway
 while ! kustomize build ./example | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 20; done
 kubectl patch svc -n istio-system istio-ingressgateway -p "{\"spec\":{\"externalIPs\":[\"${MASTER_IP}\"]}}"
-bash cgu/groupshare/scripts/bootstrap.sh webhook
+bash cgu/groupshare/scripts/bootstrap.sh webhook || GROUPSHARE_RC=1
 # kubectl patch svc -n istio-system istio-ingressgateway -p '{"spec":{"type":"ClusterIP"}}'
 kubectl taint nodes $(hostname -s) node-role.kubernetes.io/control-plane:NoSchedule
 helm repo add nvdp https://nvidia.github.io/k8s-device-plugin
@@ -111,3 +119,7 @@ python3 addqnap.py
 
 # Post-deploy GroupShare / NamespaceShare verification (read-only).
 bash cgu/groupshare/scripts/check.sh env.ini
+if [ "$GROUPSHARE_RC" -ne 0 ]; then
+  echo "GroupShare webhook is not ready (see bootstrap output above); Notebook create/update is blocked until it is."
+  exit 1
+fi
