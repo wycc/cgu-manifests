@@ -1,10 +1,8 @@
-# TODO(https://github.com/kubeflow/manifests/issues/774):
-# This is a legacy package. Hopefully we can get rid of it once
-# 774 is complete.
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-# TODO(jlewi): We can't depend on base because of the deployment_patch.
-# but maybe if we changed that to use ConfigMapRef then the patch would correctly
-# override the patch applied in base_v3
+# The v53 exporter (markjiang10/cgu-monitor:v53, Deployment node-resource-monitor,
+# Services prom-app and node-resource-monitor) was retired on 2026-11-20; v71 replaces it.
+# kubectl apply does not prune, so a cluster that still runs v53 needs the cleanup
+# steps in v71/README.md.
 resources:
-- prom.yaml
+- v71

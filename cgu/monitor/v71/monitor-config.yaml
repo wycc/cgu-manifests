@@ -1,0 +1,10 @@
+# The AI_Centre_Admin backend reads and updates this ConfigMap together with
+# node-resource-monitor-config-v71; its rate API returns 404 when either is missing.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: node-resource-monitor-config
+  namespace: cgu
+data:
+  CPU_COST_PER_MINUTE: "0.03"
+  GPU_COST_PER_MINUTE: "0.7"

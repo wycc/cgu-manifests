@@ -116,3 +116,7 @@ patches:
 images:
 - name: gcr.io/kubebuilder/kube-rbac-proxy
   newName: quay.io/brancz/kube-rbac-proxy
+# Backend built from AI_Centre_Admin branch integration-20261120 (00db3d7, full Dockerfile, frontend
+# included): GroupShare reconcile, email change keeps Profile/RoleBinding in step, 5-decimal rates.
+- name: docker.io/cguaicadmin/ldap_backend
+  newTag: v2611200123

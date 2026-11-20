@@ -1,0 +1,66 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: cgu-monitor-v2-rules
+  namespace: cgu
+  labels:
+    release: kube-prom-stack
+spec:
+  groups:
+    - name: cgu-monitor-v2
+      rules:
+        - record: cgu:namespace_billable_gpu_cards_total
+          expr: |
+            sum by (user_namespace) (
+              cgu_namespace_billable_gpu_cards
+            )
+        - record: cgu:namespace_billable_total_cost_per_minute
+          expr: |
+            cgu_namespace_billable_total_cost_per_minute
+        - record: cgu:namespace_cpu_quota_utilization_ratio
+          expr: |
+            cgu_namespace_billable_cpu_cores
+            /
+            clamp_min(cgu_namespace_quota_cpu_cores, 0.000001)
+        - record: cgu:namespace_memory_quota_utilization_ratio
+          expr: |
+            cgu_namespace_billable_memory_gib
+            /
+            clamp_min(cgu_namespace_quota_memory_gib, 0.000001)
+        - record: cgu:namespace_gpu_quota_utilization_ratio
+          expr: |
+            sum by (user_namespace) (
+              cgu_namespace_billable_gpu_cards
+            )
+            /
+            clamp_min(
+              sum by (user_namespace) (
+                cgu_namespace_quota_gpu_cards
+              ),
+              0.000001
+            )
+        - record: cgu:namespace_billable_cpu_core_hours_1h
+          expr: |
+            avg_over_time(cgu_namespace_billable_cpu_cores[1h])
+        - record: cgu:namespace_billable_memory_gib_hours_1h
+          expr: |
+            avg_over_time(cgu_namespace_billable_memory_gib[1h])
+        - record: cgu:namespace_billable_gpu_card_hours_1h
+          expr: |
+            avg_over_time(
+              sum by (user_namespace) (
+                cgu_namespace_billable_gpu_cards
+              )[1h:]
+            )
+        - record: cgu:namespace_billable_cpu_cost_1h
+          expr: |
+            avg_over_time(cgu_namespace_billable_cpu_cost_per_minute[1h]) * 60
+        - record: cgu:namespace_billable_gpu_cost_1h
+          expr: |
+            avg_over_time(cgu_namespace_billable_gpu_cost_per_minute[1h]) * 60
+        - record: cgu:namespace_billable_total_cost_1h
+          expr: |
+            avg_over_time(cgu_namespace_billable_total_cost_per_minute[1h]) * 60
+        # Historical totals should be computed from Prometheus time series storage.
+        # Keep the exporter stateless. If you need long retention, confirm Prometheus
+        # itself uses a persistent volume or remote storage before relying on these rules.

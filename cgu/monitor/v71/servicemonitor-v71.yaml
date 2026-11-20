@@ -1,0 +1,22 @@
+# Prometheus scrapes v71 through this ServiceMonitor. Until 2026-11-20 it was scraped
+# through v53's ServiceMonitor "node-resource-monitor" (selector app=prom-app); keep only
+# one of the two, or every v71 series is scraped twice.
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: node-resource-monitor-v71
+  namespace: cgu
+  labels:
+    release: kube-prom-stack
+    monitor_version: v71
+spec:
+  selector:
+    matchLabels:
+      app: prom-app
+      monitor_version: v71
+  namespaceSelector:
+    matchNames:
+      - cgu
+  endpoints:
+    - port: metrics
+      interval: 60s

@@ -1,0 +1,149 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: node-resource-monitor-config-v71
+  namespace: cgu
+data:
+  CPU_COST_PER_MINUTE: "0.03"
+  GPU_COST_PER_MINUTE: "0.7"
+  LOG_LEVEL: "INFO"
+  UPDATE_INTERVAL_SECONDS: "60"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-resource-monitor-v71
+  namespace: cgu
+  labels:
+    app: node-resource-monitor-v71
+    monitor_version: v71
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node-resource-monitor-v71
+  template:
+    metadata:
+      labels:
+        app: node-resource-monitor-v71
+        monitor_version: v71
+    spec:
+      serviceAccountName: prom-service-account-v71
+      containers:
+        - name: node-resource-monitor-v71
+          # Dependencies only (cgu/monitor/v71/Dockerfile); the code is the
+          # node-resource-monitor-script-v71 ConfigMap mounted at /opt/monitor.
+          image: docker.io/cguaicadmin/cgu-monitor-v71:v2611201515
+          imagePullPolicy: IfNotPresent
+          command:
+            - python
+            - /opt/monitor/prom_v2.py
+          ports:
+            - containerPort: 8080
+              name: metrics
+          env:
+            - name: SCRAPE_PORT
+              value: "8080"
+            - name: COST_CONFIG_PATH
+              value: /etc/node-resource-monitor
+            - name: PYTHONUNBUFFERED
+              value: "1"
+            - name: EXPORTER_VERSION
+              value: "v71"
+            # Restores the in-memory namespace_*_cost* counters after a restart from
+            # this exporter's own last values in Prometheus (see README.md).
+            - name: LEGACY_BOOTSTRAP_PROMETHEUS_URL
+              value: http://kube-prom-stack-kube-prome-prometheus.prometheus.svc.cluster.local:9090
+            - name: LOG_LEVEL
+              valueFrom:
+                configMapKeyRef:
+                  name: node-resource-monitor-config-v71
+                  key: LOG_LEVEL
+            - name: UPDATE_INTERVAL_SECONDS
+              valueFrom:
+                configMapKeyRef:
+                  name: node-resource-monitor-config-v71
+                  key: UPDATE_INTERVAL_SECONDS
+          volumeMounts:
+            - name: node-resource-monitor-config-v71
+              mountPath: /etc/node-resource-monitor
+              readOnly: true
+            - name: node-resource-monitor-script-v71
+              mountPath: /opt/monitor
+              readOnly: true
+      volumes:
+        - name: node-resource-monitor-config-v71
+          configMap:
+            name: node-resource-monitor-config-v71
+        - name: node-resource-monitor-script-v71
+          configMap:
+            name: node-resource-monitor-script-v71
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: prom-app-v71
+  namespace: cgu
+  labels:
+    app: prom-app
+    monitor_version: v71
+spec:
+  selector:
+    app: node-resource-monitor-v71
+  ports:
+    - name: metrics
+      protocol: TCP
+      port: 8080
+      targetPort: metrics
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: prom-app-v71-nodeport
+  namespace: cgu
+  labels:
+    app: prom-app-v71-nodeport
+    monitor_version: v71
+spec:
+  type: NodePort
+  selector:
+    app: node-resource-monitor-v71
+  ports:
+    - name: metrics
+      protocol: TCP
+      port: 8080
+      targetPort: metrics
+      nodePort: 30071
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: prom-service-account-v71
+  namespace: cgu
+  labels:
+    monitor_version: v71
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: node-access-v71
+rules:
+  - apiGroups: [""]
+    resources: ["nodes", "pods", "namespaces"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: ["kubeflow.org"]
+    resources: ["profiles"]
+    verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: node-access-binding-v71
+subjects:
+  - kind: ServiceAccount
+    name: prom-service-account-v71
+    namespace: cgu
+roleRef:
+  kind: ClusterRole
+  name: node-access-v71
+  apiGroup: rbac.authorization.k8s.io

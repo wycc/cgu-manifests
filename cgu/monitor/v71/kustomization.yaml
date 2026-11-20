@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- monitor-config.yaml
+- prom_v2.yaml
+- prom_rules_v2.yaml
+- servicemonitor-v71.yaml
+# The fixed name matches the volume in prom_v2.yaml and the object already on .6.
+configMapGenerator:
+- name: node-resource-monitor-script-v71
+  namespace: cgu
+  files:
+  - prom_v2.py
+  options:
+    disableNameSuffixHash: true
